@@ -1,8 +1,10 @@
-source("scrape.cantons.R")
-
 #### Demo for different cantons ####
-template <- "https://raw.githubusercontent.com/zdavatz/covid19_ch/master/data-cantons-csv/dd-covid19-ch-cantons-20200319-example.csv"
 
+## Get function
+source("mine.cantons.R")
+
+## template
+template <- "https://raw.githubusercontent.com/zdavatz/covid19_ch/master/data-cantons-csv/dd-covid19-ch-cantons-20200319-example.csv"
 
 ## Graubünden (explanations apply also for other cantons)
 url = "https://www.gr.ch/DE/institutionen/verwaltung/djsg/ga/coronavirus/info/Seiten/Start.aspx"
